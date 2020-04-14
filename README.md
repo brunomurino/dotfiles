@@ -1,6 +1,9 @@
 # Dotfiles repo
 
-To first setup the repo, run:
+Implementation based on the article https://www.atlassian.com/git/tutorials/dotfiles
+
+
+## To first setup the repo, run:
 ```bash
 echo "dotfiles.git" >> .gitignore
 
@@ -13,7 +16,7 @@ dotfiles config --local status.showUntrackedFiles no
 dotfiles remote add origin https://github.com/brunomurino/dotfiles.git
 ```
 
-To consume the repo on another system, run:
+## To consume the repo on another system, run:
 ```bash
 echo "dotfiles.git" >> .gitignore
 

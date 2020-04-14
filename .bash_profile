@@ -16,8 +16,9 @@ export PS1="$purple\t$green\$(__git_ps1) $cyan\W$reset -> "
 
 # ## Add color and display 1 file per line ##
 alias ls='ls -G -1'
+alias cnv='nvim ~/.config/nvim/init.vim'
+alias cbp='nvim ~/.bash_profile'
 
-alias cnvim='nvim ~/.config/nvim/init.vim'
-
-alias dotfiles="/usr/bin/git --git-dir=$HOME/dotfiles.git/ --work-tree=$HOME"
+alias v='nvim'
+alias vim='nvim'
 alias dotfiles="/usr/bin/git --git-dir=$HOME/dotfiles.git/ --work-tree=$HOME"

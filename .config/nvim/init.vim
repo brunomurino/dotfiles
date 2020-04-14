@@ -14,7 +14,7 @@ call plug#begin('~/.config/nvim/plugins')
 Plug 'arcticicestudio/nord-vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'preservim/nerdcommenter'
-
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
 
@@ -47,3 +47,8 @@ colorscheme nord
 set clipboard+=unnamedplus
 set number
 set mouse=a
+
+tnoremap <C-w><C-w> <C-\><C-n>
+nnoremap tt :vnew<CR>:terminal<CR>
+set splitright  " Put new split on the right pane (when vertical)
+

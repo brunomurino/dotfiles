@@ -39,3 +39,9 @@ fi
 
 dotfiles checkout
 ```
+
+## Syncing
+To sync up the system with the remote just run:
+```bash
+dotfiles pull origin master
+```

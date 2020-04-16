@@ -42,8 +42,8 @@ vmap <c-c> <plug>NERDCommenterToggle gv
 nmap <c-c> <plug>NERDCommenterToggle
 
 
-set cursorline
-colorscheme nord
+" set cursorline
+colorscheme cyberpunkneon
 set clipboard+=unnamedplus
 set number
 set mouse=a

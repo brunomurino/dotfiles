@@ -52,3 +52,7 @@ tnoremap <C-w><C-w> <C-\><C-n>
 nnoremap tt :vnew<CR>:terminal<CR>
 set splitright  " Put new split on the right pane (when vertical)
 
+set tabstop=4
+set shiftwidth=4
+set expandtab
+

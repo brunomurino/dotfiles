@@ -1,3 +1,9 @@
+# Source all files from folder
+
+for f in ~/.bash_functions/*; do source $f; done
+
+
+
 # Enable tab completion
 source ~/git-completion.bash
 # colors!
@@ -21,4 +27,4 @@ alias cbp='nvim ~/.bash_profile'
 
 alias v='nvim'
 alias vim='nvim'
-alias dotfiles="/usr/bin/git --git-dir=$HOME/dotfiles.git/ --work-tree=$HOME"
+

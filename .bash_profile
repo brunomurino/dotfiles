@@ -22,3 +22,6 @@ alias cbp='nvim ~/.bash_profile'
 alias v='nvim'
 alias vim='nvim'
 
+export PATH="/usr/local/opt/terraform@0.11/bin:$PATH"
+
+source /Users/brunomurino/Library/Preferences/org.dystroy.broot/launcher/bash/br

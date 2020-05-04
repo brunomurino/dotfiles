@@ -3,3 +3,6 @@ then
     exec startx
 fi
 
+export PATH="/usr/local/opt/terraform@0.11/bin:$PATH"
+
+source /Users/brunomurino/Library/Preferences/org.dystroy.broot/launcher/bash/br

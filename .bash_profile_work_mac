@@ -1,1 +1,0 @@
-if [ -f ~/.bashrc_work_mac ]; then . ~/.bashrc_work_mac; fi

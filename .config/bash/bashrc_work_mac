@@ -3,7 +3,7 @@
 #
 
 # Source all files from folder
-for f in ~/.bash_functions/*; do source $f; done
+for f in ~/.config/bash/bash_functions/*; do source $f; done
 
 
 export BASH_SILENCE_DEPRECATION_WARNING=1

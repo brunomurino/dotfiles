@@ -1,0 +1,16 @@
+#
+# ~/.bashrc
+#
+
+# Source all files from folder
+for f in ~/.bash_functions/*; do source $f; done
+
+
+PS1='[\u@\h \W]\$ '
+
+
+alias ls='ls --color=auto'
+alias cnv='nvim ~/.config/nvim/init.vim'
+alias cbp='nvim ~/.bash_profile'
+alias v='nvim'
+alias vim='nvim'

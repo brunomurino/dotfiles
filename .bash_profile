@@ -1,8 +1,6 @@
-if systemctl -q is-active graphical.target && [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]];
-then
-    exec startx
-fi
+#
+# ~/.bash_profile
+#
 
-export PATH="/usr/local/opt/terraform@0.11/bin:$PATH"
-
-source /Users/brunomurino/Library/Preferences/org.dystroy.broot/launcher/bash/br
+if [ -f ~/.bash_profile_work_mac ]; then . ~/.bash_profile_work_mac; fi
+# if [ -f ~/.bash_profile_arch ]; then . ~/.bash_profile_arch; fi

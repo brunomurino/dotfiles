@@ -13,8 +13,11 @@ call plug#begin('~/.config/nvim/plugins')
 
 Plug 'arcticicestudio/nord-vim'
 Plug 'airblade/vim-gitgutter'
+Plug 'dag/vim-fish'
+Plug 'scrooloose/nerdtree'
 Plug 'preservim/nerdcommenter'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
 
 call plug#end()
 
@@ -42,10 +45,12 @@ vmap <c-c> <plug>NERDCommenterToggle gv
 nmap <c-c> <plug>NERDCommenterToggle
 
 
-" set cursorline
+"set cursorline
 colorscheme cyberpunkneon
+au ColorScheme * hi Normal ctermbg=none guibg=none
+au ColorScheme myspecialcolors hi Normal ctermbg=red guibg=red
 set clipboard+=unnamedplus
-set number
+set number relativenumber
 set mouse=a
 
 tnoremap <C-w><C-w> <C-\><C-n>
@@ -55,4 +60,5 @@ set splitright  " Put new split on the right pane (when vertical)
 set tabstop=4
 set shiftwidth=4
 set expandtab
-
+syntax enable
+filetype plugin indent on
